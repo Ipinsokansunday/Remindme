@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemindMe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+		.img_logo{
+			width: 70px;
+			height:70px;
+			border-radius:100%;
+		}
+        .navbar {
+            background-color: #4A148C;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff !important;
+        }
+        .hero-section {
+            background-color: #6A1B9A;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .features-section {
+            padding: 50px 0;
+        }
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #6A1B9A;
+        }
+        .footer {
+            background-color: #4A148C;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fixed Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.jpeg" class="img_logo" />RemindMe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+                        <a class="nav-link" href="remindme.html">Remindme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container" style="background: url('images/logo.jpeg') no-repeat center center/cover; border-radius: 100px;">
+            <h1>Never Forget an Important Event Again</h1>
+            <p>With RemindMe, you can keep track of all your important events and never miss a single one.</p>
+            <a href="hiw.html" class="btn btn-light">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <div class="feature-icon">&#128197;</div>
+                    <h3>Easy to Use</h3>
+                    <p>Our app is user-friendly and easy to navigate.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <div class="feature-icon">&#128276;</div>
+                    <h3>Custom Reminders</h3>
+                    <p>Set custom reminders for all your important events.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <div class="feature-icon">&#128241;</div>
+                    <h3>Cross-Platform</h3>
+                    <p>Access your reminders on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 RemindMe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
